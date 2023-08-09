@@ -13,6 +13,7 @@
 8. `git push origin`
 
 ![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/zabbix1.jpg)`
+
 ![Скриншот 2](https://github.com/ArsentiyV/02-monitoring/blob/main/img/zabbix2.jpg)`
 
 
