@@ -3,7 +3,7 @@
 
 ### Задание 1
 
-#Файл конфига https://github.com/ArsentiyV/02-monitoring/blob/main/my_hsrp_advanced.pkt
+### Файл конфига https://github.com/ArsentiyV/02-monitoring/blob/main/my_hsrp_advanced.pkt
 
 ![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/router1.jpg)`
 
