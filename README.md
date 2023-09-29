@@ -3,34 +3,21 @@
 
 ### Задание 1
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/web01.jpg)`
-
-![Скриншот 2](https://github.com/ArsentiyV/02-monitoring/blob/main/img/web02.jpg)`
-
-### Файл конфига https://github.com/ArsentiyV/02-monitoring/blob/main/1_haproxy.cfg
-
-![Скриншот 3](https://github.com/ArsentiyV/02-monitoring/blob/main/img/haproxy01.jpg)`
-
-![Скриншот 4](https://github.com/ArsentiyV/02-monitoring/blob/main/img/haproxy02.jpg)`
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rsync1.jpg)`
 
 ---
 
 ### Задание 2
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/web01.jpg)`
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/backup_sh.jpg)`
 
-![Скриншот 2](https://github.com/ArsentiyV/02-monitoring/blob/main/img/web02.jpg)`
+![Скриншот 2](https://github.com/ArsentiyV/02-monitoring/blob/main/img/cron1.jpg)`
 
-![Скриншот 3](https://github.com/ArsentiyV/02-monitoring/blob/main/img/web03.jpg)`
+![Скриншот 3](https://github.com/ArsentiyV/02-monitoring/blob/main/img/backup_sh1.jpg)`
 
-### Файл конфига https://github.com/ArsentiyV/02-monitoring/blob/main/2_haproxy.cfg
+![Скриншот 4](https://github.com/ArsentiyV/02-monitoring/blob/main/img/tmp_backup.jpg)`
 
-![Скриншот 4](https://github.com/ArsentiyV/02-monitoring/blob/main/img/haproxy03.jpg)`
+![Скриншот 5](https://github.com/ArsentiyV/02-monitoring/blob/main/img/backup_log1.jpg)`
 
-![Скриншот 5](https://github.com/ArsentiyV/02-monitoring/blob/main/img/haproxy05.jpg)`
-
-
-
-
-
+![Скриншот 5](https://github.com/ArsentiyV/02-monitoring/blob/main/img/backup_log2.jpg)`
 
