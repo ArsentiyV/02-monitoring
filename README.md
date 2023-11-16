@@ -5,7 +5,7 @@
 Добавьте management plug-in и зайдите в веб-интерфейс.Итогом выполнения домашнего 
 задания будет приложенный скриншот веб-интерфейса RabbitMQ.
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbimq-1.jpg)`
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbitmq-1.jpg)`
 
 
 ##Задание 2. Отправка и получение сообщений
@@ -20,11 +20,11 @@ $ pip install pika
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название 
 очереди и отправляемое сообщение.
 
-![Скриншот 2](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbimq-2-1.jpg)`
+![Скриншот 2](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbitmq-2-1.jpg)`
 
-![Скриншот 3](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbimq-2-2.jpg)`
+![Скриншот 3](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbitmq-2-2.jpg)`
 
-![Скриншот 4](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbimq-2-3.jpg)`
+![Скриншот 4](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbitmq-2-3.jpg)`
 
 
 ##Задание 3. Подготовка HA кластера
@@ -34,15 +34,15 @@ $ pip install pika
 политику ha-all на все очереди. В качестве решения домашнего задания приложите скриншоты из веб-интерфейса 
 с информацией о доступных нодах в кластере и включённой политикой. 
 
-![Скриншот 5](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbimq-3-1.jpg)`
+![Скриншот 5](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbitmq-3-1.jpg)`
 
-![Скриншот 6](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbimq-3-2.jpg)`
+![Скриншот 6](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbitmq-3-2.jpg)`
 
 Также приложите вывод команды с двух нод: $ rabbitmqctl cluster_status
 
-![Скриншот 7](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbimq-3-3.jpg)`
+![Скриншот 7](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbitmq-3-3.jpg)`
 
-![Скриншот 8](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbimq-3-4.jpg)`
+![Скриншот 8](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbitmq-3-4.jpg)`
 
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 $ rabbitmqadmin get queue='hello'
@@ -50,10 +50,10 @@ $ rabbitmqadmin get queue='hello'
 параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 Приложите скриншот результата работы второго скрипта.
 
-![Скриншот 9](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbimq-3-5.jpg)`
+![Скриншот 9](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbitmq-3-5.jpg)`
 
-![Скриншот 10](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbimq-3-6.jpg)`
+![Скриншот 10](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbitmq-3-6.jpg)`
 
-![Скриншот 11](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbimq-3-7.jpg)`
+![Скриншот 11](https://github.com/ArsentiyV/02-monitoring/blob/main/img/rabbitmq-3-7.jpg)`
 
 
