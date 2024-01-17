@@ -1,51 +1,35 @@
-# Домашнее задание к занятию "`Работа с данными (DDL/DML)`" - `Варитлов Арсентий`
+# Домашнее задание к занятию "`SQL. Часть 1`" - `Варитлов Арсентий`
 
 
 ### Задание 1.
 
-1.1. Поднимите чистый инстанс MySQL версии 8.0+. Можно использовать локальный сервер или контейнер Docker.
+Получите уникальные названия районов из таблицы с адресами, которые начинаются на “K” и 
+заканчиваются на “a” и не содержат пробелов.
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1.jpg)
-
-1.2. Создайте учётную запись sys_temp.
-
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-1.jpg)
-
-1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
-
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-2.jpg)
-
-1.4. Дайте все права для пользователя sys_temp.
-
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-3.jpg)
-
-1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
-
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-4.jpg)
-
-1.6. Переподключитесь к базе данных от имени sys_temp.
-
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-5.jpg)
-
-1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
-1.7. Восстановите дамп в базу данных.
-
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-6.jpg)
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-6-1.jpg)
-
-1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в 
-командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
-
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-7.jpg)
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-7-1.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/SQL1-1.jpg)
 
 
-### Задание 2. 
-Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть 
-два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия 
-первичных ключей этих таблиц. Пример: (скриншот/текст)
+### Задание 2.
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-2.jpg)
+Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись 
+в промежуток с 15 июня 2005 года по 18 июня 2005 года включительно и стоимость которых превышает 10.00.
+
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/SQL1-2.jpg)
+
+### Задание 3.
+
+Получите последние пять аренд фильмов.
+
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/SQL1-3.jpg)
+
+
+### Задание 4.
+
+Одним запросом получите активных покупателей, имена которых Kelly или Willie.
+Сформируйте вывод в результат таким образом:
+  - все буквы в фамилии и имени из верхнего регистра переведите в нижний регистр,
+  - замените буквы 'll' в именах на 'pp'.
+
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/SQL1-4.jpg)
 
 ---
-
