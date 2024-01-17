@@ -1,88 +1,51 @@
-# Домашнее задание к занятию `«Базы данных» - Варитлов Арсентий`
-
-### Задание 1. 
-
-Опишите не менее семи таблиц, из которых состоит база данных:
-какие данные хранятся в этих таблицах;
-какой тип данных у столбцов в этих таблицах, если данные хранятся в PostgreSQL.
-Приведите решение к следующему виду:
-
-Сотрудники (
-идентификатор, первичный ключ, serial,
-фамилия varchar(50),
-...
-идентификатор структурного подразделения, внешний ключ, integer).
+# Домашнее задание к занятию "`Работа с данными (DDL/DML)`" - `Варитлов Арсентий`
 
 
-### Ответ.
+### Задание 1.
 
-Таблица #1 - Сотрудники
-1. ФИО, id_fio, integer
-2. Оклад, salary, decimail(10,2)
-3. Идентификатор трудоустройства, id_employment, integer
-4. Дата найма, start_date, date() 
-5. Адрес филиала, id_filial, integer
-6. Идентификатор проекта, id_project, integer
+1.1. Поднимите чистый инстанс MySQL версии 8.0+. Можно использовать локальный сервер или контейнер Docker.
 
-Таблица #2 - Фамилии
-1. Идентификатор, id_firstname, первичный ключ, serial
-2. Фамилия, firstname, varchar(15)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1.jpg)
 
-Таблица #3 - Имена
-1. Идентификатор, id_secondname, первичный ключ, serial
-2. Имя, secondname, varchar(15) 
+1.2. Создайте учётную запись sys_temp.
 
-Таблица #4 - Отчества
-1. Идентификатор, id_patron, первичный ключ, serial
-2. Отчетство, patron, varchar(15) 
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-1.jpg)
 
-Таблица #5 - Полные ФИО
-1. Идентификатор, id_fio, первичный ключ, serial
-2. Идентификатор фамилии, id_firstname, integer
-3. Идентификатор имени, id_secondname, integer
-4. Идентификатор отчества, id_patron, integer
+1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
-Таблица #6 - Трудоустройство
-1. Идентификатор, id_employment, первичный ключ, serial
-2. Идентификатор  id_type_subdiv, integer
-3. Идентификатор id_subdivision,  integer
-4. Идентификатор id_job_title,  integer
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-2.jpg)
 
-Таблица #7 -Тип Подразделения
-1. Идентификатор, id_type_subdiv, первичный ключ, serial
-2. Тип подразделения,  type_subdiv, varchar(15)
+1.4. Дайте все права для пользователя sys_temp.
 
-Таблица #8 - Подразделения 
-1. Идентификатор, id_subdivision, первичный ключ, serial
-2. Подразделение, subdivision, varchar (50)
-3. Идентификатор типа подразделения, id_type_subdiv, integer 
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-3.jpg)
 
-Таблица #9 - Должность
-1. Идентификатор, id_job_title, первичный ключ, serial
-2. Должность, job_title, varchar(40)
-3. Идентификатор подразделения id_subdivision, integer
+1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
-Таблица #10 - Адрес филиала
-1. Идентификатор id_filial, первичный ключ, serial
-2. Идентификатор региона, id_region, integer
-3. Идентификатор нас.пункта, id_city, integer
-4. Идентификатор улицы, id_street, integer
-5. Номер дома, house, integer(4)
-6. Корпус, building, varchar(3)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-4.jpg)
+
+1.6. Переподключитесь к базе данных от имени sys_temp.
+
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-5.jpg)
+
+1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
+1.7. Восстановите дамп в базу данных.
+
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-6.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-6-1.jpg)
+
+1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в 
+командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
+
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-7.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-1-7-1.jpg)
 
 
-Таблица #11 - регион
-1. Идентификатор, id_region, первичный ключ, serial
-2. Регион, region, varchar(50)
+### Задание 2. 
+Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть 
+два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия 
+первичных ключей этих таблиц. Пример: (скриншот/текст)
 
-Таблица #12 - Населенный пункт
-1. Идентификатор, id_city, первичный ключ, serial
-2. Населенный пункт, city, varchar(30)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sql-2.jpg)
 
-Таблица #13 - Улица
-1. Идентификатор, id_street, первичный ключ, serial
-2. Улица, street, varchar(30)
+---
 
-Таблица #14 - Проекты
-1. Идентификатор, id_project, первичный ключ, serial
-2. Проект, project, varchar(100)
