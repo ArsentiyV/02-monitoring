@@ -23,12 +23,12 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 
 Ответ. 
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/SQL-ind-2-1.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/SQL-ind-2_1.jpg)
 
 Насколько я понимаю данный запрос выдает платежи людей, взявших в аренду фильмы за определенную дату. 
 Если нам надо получить только этe информацию , то таблицы rental, inventory, film надо исключить из запроса 
 т. к. исходный запрос перебирает слишком много строк что сказывается на времени выполнения запроса.
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/SQL-ind-2-2.jpg)
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/SQL-ind-2-3.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/SQL-ind-2_2.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/SQL-ind-2_3.jpg)
 
