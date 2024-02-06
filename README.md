@@ -24,9 +24,9 @@
 
 В результате сканирования на ВМ были обнаружены следующие уязвимости:
 
-SSV:78173	7.8	https://vulners.com/seebug/SSV:78173
-CVE-2010-4478	7.5	https://vulners.com/cve/CVE-2010-4478
-CVE-2008-1657	6.5	https://vulners.com/cve/CVE-2008-1657
+SSV:78173	https://vulners.com/seebug/SSV:78173
+CVE-2010-4478	https://vulners.com/cve/CVE-2010-4478
+CVE-2008-1657	https://vulners.com/cve/CVE-2008-1657
 
 ![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/sec-1-1-2.jpg)
 
@@ -42,7 +42,7 @@ CVE-2008-1657	6.5	https://vulners.com/cve/CVE-2008-1657
 
 Ответ.
 
-Режим SYN -sS 
+Режим SYN -sS
 При использовании данного режима Nmap посылает SYN пакет и для хоста это выглядит как будто 
 с ним хотят установить реальное соединение. Если приходит ответ SYN/ACK – значит порт открыт, 
 а если RST – значит закрыт, если ответ не приходит или пришло ICMP-сообщение об ошибке – 
