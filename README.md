@@ -26,19 +26,19 @@
 
 Ответ.
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt2-1.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt-2-1.jpg)
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt2-2.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt-2-2.jpg)
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt2-3.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt-2-3.jpg)
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt2-4.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt-2-4.jpg)
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt2-5.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt-2-5.jpg)
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt2-6.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt-2-6.jpg)
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt2-7.jpg)
+![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/crypt-2-7.jpg)
 
 
 ---
