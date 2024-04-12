@@ -130,13 +130,13 @@ EXPLAIN - предоставляет служебную информацию о 
 Делаем бэкап
 ![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_1.jpg)`
 
-Останавливаем и удаляем контейнер 
+Останавливаем и удаляем контейнер
 ![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_2.jpg)`
 
 Удаляем volume
 ![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_3.jpg)`
 
-Запускаем новый контейнер,подключаемся к нему и проверяем наличие информации для восстановления.
+Запускаем новый контейнер,подключаемся к нему и проверяем наличие информации для восстановления
 ![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_4.jpg)`
 
 Проводим восстановление из бекапа
