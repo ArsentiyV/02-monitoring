@@ -16,9 +16,9 @@
 
 ![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/mysql_1_1.jpg)`
 
-![Скриншот 2](https://github.com/ArsentiyV/02-monitoring/blob/main/img/mtsql_1_2.jpg)`
+![Скриншот 2](https://github.com/ArsentiyV/02-monitoring/blob/main/img/mysql_1_2.jpg)`
 
-![Скриншот 3](https://github.com/ArsentiyV/02-monitoring/blob/main/img/mtsql_1_3.jpg)`
+![Скриншот 3](https://github.com/ArsentiyV/02-monitoring/blob/main/img/mysql_1_3.jpg)`
 
 ### Задание 2. 
 
@@ -40,7 +40,7 @@
 
 ![Скриншот 5](https://github.com/ArsentiyV/02-monitoring/blob/main/img/mysql_2_2.jpg)`
 
-![Скриншот 6](https://github.com/ArsentiyV/02-monitoring/blob/main/img/mtsql_2_3.jpg)`
+![Скриншот 6](https://github.com/ArsentiyV/02-monitoring/blob/main/img/mysql_2_3.jpg)`
 
 
 ### Задание 3.
