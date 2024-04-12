@@ -15,10 +15,14 @@
 
 Ответ. 
 
-\l[+]   [PATTERN]      list databases  
+\l[+]   [PATTERN]      list databases
+
 \c[onnect] {[DBNAME|- USER|- HOST|- PORT|-] | conninfo} connect to new database (currently "postgres")
+
 \dt[S+] [PATTERN]      list tables
+
 \d[S+]                 list tables, views, and sequences
+
 \q                     quit psql
 
 ### Задание 2. 
