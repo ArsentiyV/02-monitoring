@@ -12,8 +12,9 @@
 
 Далее все операции с базой производились одним скриптом:
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_1_1.jpg)`
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_1_2.jpg)`
+![Скриншот 2](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_1_1.jpg)`
+
+![Скриншот 3](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_1_2.jpg)`
 
 
 ### Задание 2. 
@@ -47,8 +48,9 @@
 
 Ответ.
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_2_1.jpg)`
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_2_2.jpg)`
+![Скриншот 4](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_2_1.jpg)`
+
+![Скриншот 5](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_2_2.jpg)`
 
 
 ### Задание 3.
@@ -81,7 +83,7 @@ Ritchie Blackmore	Russia
 
 Ответ.
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_3_1.jpg)`
+![Скриншот 6](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_3_1.jpg)`
 
 ### Задание 4.
 
@@ -100,7 +102,7 @@ Ritchie Blackmore	Russia
 
 Ответ.
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_4_1.jpg)`
+![Скриншот 7](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_4_1.jpg)`
 
 
 ### Задание 5.
@@ -114,7 +116,7 @@ Ritchie Blackmore	Russia
 EXPLAIN - предоставляет служебную информацию о запросе к БД, в том числе время на 
 выполнение запроса, что при оптимизации работы БД является очень полезной информацией.
 
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_5_1.jpg)`
+![Скриншот 8](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_5_1.jpg)`
 
 ### Задание 6.
 
@@ -128,22 +130,28 @@ EXPLAIN - предоставляет служебную информацию о 
 Ответ. 
 
 Делаем бэкап
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_1.jpg)`
+
+![Скриншот 9](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_1.jpg)`
 
 Останавливаем и удаляем контейнер
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_2.jpg)`
+
+![Скриншот 10](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_2.jpg)`
 
 Удаляем volume
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_3.jpg)`
+
+![Скриншот 11](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_3.jpg)`
 
 Запускаем новый контейнер,подключаемся к нему и проверяем наличие информации для восстановления
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_4.jpg)`
+
+![Скриншот 12](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_4.jpg)`
 
 Проводим восстановление из бекапа
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_5.jpg)`
+
+![Скриншот 13](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_5.jpg)`
 
 Проверяем восстановленные данные
-![Скриншот 1](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_6.jpg)`
+
+![Скриншот 14](https://github.com/ArsentiyV/02-monitoring/blob/main/img/pgsql_6_6.jpg)`
 
 
 ---
